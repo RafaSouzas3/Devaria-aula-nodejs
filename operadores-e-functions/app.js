@@ -20,7 +20,7 @@ const validarOperador = (operador) => {
         case '%':
             return operador;
         default:
-            console.log('operador informado e invalido');
+            console.log('operador informado é invalido');
             return null;        
     }
 }
