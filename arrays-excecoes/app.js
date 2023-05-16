@@ -21,8 +21,9 @@ try{
     });
     listaDeProdutosSolicitadosNaoDiponiveis.forEach(argumento => console.log(`Este produto nos nao temos; ${argumento}`));
     
-     listaDeProdutosDisponiveis.sort(produto);
-    listaDeProdutosOrdenados.forEach(produto => console.log(`Este produto esta disponivel: ${produto}`));
+    const listaDeProdutosOrdenados = listaDeProdutosDisponiveis.sort();
+    //  listaDeProdutosDisponiveis.sort();
+     listaDeProdutosOrdenados.forEach(produto => console.log(`Este produto esta disponivel: ${produto}`));
     
 }catch(e){
     console.log('Nao foi possivel executar a compra')
