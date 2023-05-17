@@ -1,0 +1,16 @@
+{
+  "name": "hello-npm",
+  "version": "1.0.0",
+  "description": "Projeto de teste npm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Teste"
+  ],
+  "author": "Rafael Silva Souza",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
